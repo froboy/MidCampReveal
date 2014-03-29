@@ -24,7 +24,7 @@
   font-style: normal;
 }
 
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,600);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,600,900);
 
 // Override theme settings (see ../template/settings.scss)
 // Theme Specific Colors
@@ -48,7 +48,7 @@ $backgroundColor: $light-aqua;
 
 // Primary/body text
 $mainFont: 'Raleway', 'Verdana', 'Lucida Grande', 'Gill Sans', 'Arial', 'Helvetica', sans-serif;
-$mainFontSize: 36px;
+$mainFontSize: 24px;
 $mainColor: #eee;
 
 // Headings
@@ -58,7 +58,7 @@ $headingColor: #eee;
 $headingLineHeight: 0.9em;
 $headingLetterSpacing: 0.02em;
 $headingTextTransform: uppercase;
-$headingTextShadow: 0px 0px 6px rgba(0,0,0,0.2);
+$headingTextShadow: 0px 0px 6px rgba(0,0,0,0.5);
 $linkShadow: 2px 4px 4px rgba($black, 0.3);
 
 // Links and actions

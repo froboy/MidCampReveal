@@ -128,5 +128,28 @@ ul {
   .media-slide {
     text-align: center;
   }
+
+  h1 {
+    font-weight: 900;
+  }
+
+  h2 {
+    font-weight: 700;
+  }
+  h3, h4, h5, h6 {
+    font-weight: 600;
+  }
+  p, li {
+    font-weight: 500;
+  }
+
+  p, ul {
+    margin-bottom: 20px;
+  }
+
+  .invert h1, .invert h2, .invert h3, .invert h4, .invert h5, .invert h6, invert p {
+    color: #333;
+    text-shadow: 0px 0px 6px rgba(255,255,255,1);
+  }
 }
 // ---------------------------------------------
